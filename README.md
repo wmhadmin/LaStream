@@ -31,7 +31,7 @@ DRRS is implemented as a research prototype on top of Apache Storm.
 
 
 ## Prerequisites
-You need to design a streaming application that can run on Apache Storm. For details, please refer to the link: <a id="custom-anchor">[(https://github.com/apache/storm/tree/master/examples/storm-starter]https://github.com/apache/storm/tree/master/examples/storm-starter</a> 
+You need to design a streaming application that can run on Apache Storm. For details, please refer to the link: <a id="custom-anchor">[https://github.com/apache/storm/tree/master/examples/storm-starter]</a> 
 
 ## Installation
 
