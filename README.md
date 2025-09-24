@@ -15,7 +15,7 @@ DRRS is implemented as a research prototype on top of Apache Storm.
 2. **DeepSeek Action Generator** (`deepseek_action_generator.py`)
 - Integrates the DeepSeek API to generate parallelism configurations
 - Considers operator characteristics such as processing power, input rate, and resource load
-- Generates multiple candidate parallelism configurations (10 by default)
+- Generates multiple candidate parallelism configurations
 
 3. **Action Evaluator** (`action_evaluator.py`)
 - Evaluates action quality using a feedforward neural network
