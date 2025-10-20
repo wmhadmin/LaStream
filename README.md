@@ -3,7 +3,7 @@
 ## Overview
 This repository presents La-Stream, a framework that configures operator parallelism at runtime using a learned exploration-free model, enabling reliable scaling decisions without iterative trial-and-error. Leveraging LLM guidance, La-Stream generates high-quality candidate actions, effectively constraining the search space and avoiding costly online exploration.
 
-DRRS is implemented as a research prototype on top of Apache Storm.
+La-Stream is implemented as a research prototype on top of Apache Storm.
 
 # Core Components
 
