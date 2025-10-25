@@ -41,9 +41,9 @@ def calculate_reward(L: float, D: float, parallelism_scheme: List[int],
                     target_latency: float = 100.0, 
                     target_data_constraint: float = 1000.0,
                     min_parallelism: int = 1,
-                    eta_l: float = 1.0, 
-                    eta_d: float = 1.0, 
-                    eta_a: float = 1.0) -> float:
+                    eta_l: float = 0.4, 
+                    eta_d: float = 0.4, 
+                    eta_a: float = 0.2) -> float:
     """
     Calculate reward value according to the paper formula.
     
